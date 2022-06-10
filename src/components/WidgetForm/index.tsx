@@ -1,9 +1,9 @@
-import { CloseButton } from '../CloseButton';
+import { useState } from 'react';
 
 import bugImgUrl from '../../assets/bug.svg';
 import ideaImgUrl from '../../assets/idea.svg';
 import thoughtImgUrl from '../../assets/thought.svg';
-import { useState } from 'react';
+
 import { FeedbackTypeStep } from './Steps/FeedbackTypeStep';
 import { FeedbackContentStep } from './Steps/FeedbackContentStep';
 import { FeedbackSuccessStep } from './Steps/FeedbackSuccessStep';
